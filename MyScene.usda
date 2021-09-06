@@ -1,0 +1,2025 @@
+#usda 1.0
+(
+    doc = """Generated from Composed Stage of root layer 
+"""
+)
+
+def Xform "MyScene"
+{
+    def Xform "shape0"
+    {
+        float3 xformOp:scale = (16, 16, 1)
+        double3 xformOp:translate = (215, 65, 10)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape1"
+    {
+        float3 xformOp:scale = (16, 16, 1)
+        double3 xformOp:translate = (55, 65, 10)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape2"
+    {
+        double3 xformOp:translate = (140, 10, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape3"
+    {
+        double3 xformOp:translate = (140, 20, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape4"
+    {
+        double3 xformOp:translate = (150, 20, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape5"
+    {
+        double3 xformOp:translate = (160, 20, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape6"
+    {
+        double3 xformOp:translate = (170, 20, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape7"
+    {
+        double3 xformOp:translate = (170, 30, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape8"
+    {
+        double3 xformOp:translate = (180, 30, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape9"
+    {
+        double3 xformOp:translate = (180, 40, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape10"
+    {
+        double3 xformOp:translate = (190, 40, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape11"
+    {
+        double3 xformOp:translate = (190, 50, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape12"
+    {
+        double3 xformOp:translate = (200, 50, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape13"
+    {
+        double3 xformOp:translate = (200, 60, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape14"
+    {
+        double3 xformOp:translate = (210, 60, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape15"
+    {
+        double3 xformOp:translate = (210, 70, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape16"
+    {
+        double3 xformOp:translate = (210, 80, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape17"
+    {
+        double3 xformOp:translate = (210, 90, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape18"
+    {
+        double3 xformOp:translate = (220, 80, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape19"
+    {
+        double3 xformOp:translate = (210, 80, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape20"
+    {
+        double3 xformOp:translate = (210, 90, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape21"
+    {
+        double3 xformOp:translate = (200, 90, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape22"
+    {
+        double3 xformOp:translate = (200, 100, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape23"
+    {
+        double3 xformOp:translate = (190, 100, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape24"
+    {
+        double3 xformOp:translate = (180, 100, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape25"
+    {
+        double3 xformOp:translate = (180, 110, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape26"
+    {
+        double3 xformOp:translate = (170, 110, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape27"
+    {
+        double3 xformOp:translate = (160, 110, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape28"
+    {
+        double3 xformOp:translate = (160, 120, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape29"
+    {
+        double3 xformOp:translate = (150, 120, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape30"
+    {
+        double3 xformOp:translate = (140, 120, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape31"
+    {
+        double3 xformOp:translate = (130, 120, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape32"
+    {
+        double3 xformOp:translate = (120, 120, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape33"
+    {
+        double3 xformOp:translate = (110, 120, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape34"
+    {
+        double3 xformOp:translate = (100, 120, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape35"
+    {
+        double3 xformOp:translate = (110, 110, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape36"
+    {
+        double3 xformOp:translate = (100, 110, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape37"
+    {
+        double3 xformOp:translate = (90, 110, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape38"
+    {
+        double3 xformOp:translate = (80, 110, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape39"
+    {
+        double3 xformOp:translate = (90, 100, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape40"
+    {
+        double3 xformOp:translate = (80, 100, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape41"
+    {
+        double3 xformOp:translate = (70, 100, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape42"
+    {
+        double3 xformOp:translate = (80, 90, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape43"
+    {
+        double3 xformOp:translate = (70, 90, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape44"
+    {
+        double3 xformOp:translate = (60, 90, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape45"
+    {
+        double3 xformOp:translate = (70, 80, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape46"
+    {
+        double3 xformOp:translate = (60, 80, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape47"
+    {
+        double3 xformOp:translate = (50, 80, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape48"
+    {
+        double3 xformOp:translate = (100, 50, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape49"
+    {
+        double3 xformOp:translate = (90, 50, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape50"
+    {
+        double3 xformOp:translate = (80, 50, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape51"
+    {
+        double3 xformOp:translate = (90, 60, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape52"
+    {
+        double3 xformOp:translate = (80, 60, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape53"
+    {
+        double3 xformOp:translate = (70, 60, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape54"
+    {
+        double3 xformOp:translate = (80, 70, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape55"
+    {
+        double3 xformOp:translate = (70, 70, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape56"
+    {
+        double3 xformOp:translate = (60, 70, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape57"
+    {
+        double3 xformOp:translate = (100, 40, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape58"
+    {
+        double3 xformOp:translate = (110, 40, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape59"
+    {
+        double3 xformOp:translate = (120, 40, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape60"
+    {
+        double3 xformOp:translate = (130, 40, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape61"
+    {
+        double3 xformOp:translate = (140, 40, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape62"
+    {
+        double3 xformOp:translate = (150, 40, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape63"
+    {
+        double3 xformOp:translate = (150, 50, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape64"
+    {
+        double3 xformOp:translate = (160, 50, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape65"
+    {
+        double3 xformOp:translate = (160, 60, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape66"
+    {
+        double3 xformOp:translate = (170, 60, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape67"
+    {
+        double3 xformOp:translate = (170, 70, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape68"
+    {
+        double3 xformOp:translate = (180, 70, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape69"
+    {
+        double3 xformOp:translate = (170, 80, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape70"
+    {
+        double3 xformOp:translate = (180, 80, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape71"
+    {
+        double3 xformOp:translate = (160, 90, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape72"
+    {
+        double3 xformOp:translate = (150, 90, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape73"
+    {
+        double3 xformOp:translate = (140, 90, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape74"
+    {
+        double3 xformOp:translate = (130, 100, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape75"
+    {
+        double3 xformOp:translate = (130, 90, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape76"
+    {
+        double3 xformOp:translate = (120, 90, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape77"
+    {
+        double3 xformOp:translate = (110, 90, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape78"
+    {
+        double3 xformOp:translate = (120, 80, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape79"
+    {
+        double3 xformOp:translate = (110, 80, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape80"
+    {
+        double3 xformOp:translate = (100, 80, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape81"
+    {
+        double3 xformOp:translate = (110, 70, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape82"
+    {
+        double3 xformOp:translate = (130, 10, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape83"
+    {
+        double3 xformOp:translate = (120, 10, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape84"
+    {
+        double3 xformOp:translate = (110, 10, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape85"
+    {
+        double3 xformOp:translate = (130, 20, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape86"
+    {
+        double3 xformOp:translate = (120, 20, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape87"
+    {
+        double3 xformOp:translate = (110, 20, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape88"
+    {
+        double3 xformOp:translate = (100, 20, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape89"
+    {
+        double3 xformOp:translate = (90, 20, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape90"
+    {
+        double3 xformOp:translate = (80, 20, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape91"
+    {
+        double3 xformOp:translate = (70, 20, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape92"
+    {
+        double3 xformOp:translate = (90, 30, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape93"
+    {
+        double3 xformOp:translate = (80, 30, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape94"
+    {
+        double3 xformOp:translate = (70, 30, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape95"
+    {
+        double3 xformOp:translate = (60, 30, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape96"
+    {
+        double3 xformOp:translate = (50, 30, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape97"
+    {
+        double3 xformOp:translate = (40, 30, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape98"
+    {
+        double3 xformOp:translate = (70, 40, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape99"
+    {
+        double3 xformOp:translate = (60, 40, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape100"
+    {
+        double3 xformOp:translate = (50, 40, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape101"
+    {
+        double3 xformOp:translate = (40, 40, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape102"
+    {
+        double3 xformOp:translate = (30, 40, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape103"
+    {
+        double3 xformOp:translate = (20, 40, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape104"
+    {
+        double3 xformOp:translate = (20, 50, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape105"
+    {
+        double3 xformOp:translate = (30, 50, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape106"
+    {
+        double3 xformOp:translate = (40, 50, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape107"
+    {
+        double3 xformOp:translate = (50, 50, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape108"
+    {
+        double3 xformOp:translate = (30, 60, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape109"
+    {
+        double3 xformOp:translate = (40, 60, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape110"
+    {
+        float3 xformOp:scale = (32, 8, 1)
+        double3 xformOp:translate = (135, 25, 20)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 0, 0)]
+        }
+    }
+
+    def Xform "shape111"
+    {
+        float3 xformOp:scale = (32, 8, 1)
+        double3 xformOp:translate = (135, 105, 20)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(0, 1, 0)]
+        }
+    }
+
+    def Xform "shape112"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (10, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape113"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (10, 120, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape114"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (10, 110, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape115"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (10, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape116"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (15, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape117"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (20, 120, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape118"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (25, 110, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape119"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (30, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape120"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (35, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape121"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (35, 110, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape122"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (35, 120, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape123"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (35, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape124"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (55, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape125"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (55, 110, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape126"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (55, 120, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape127"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (55, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape128"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (65, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape129"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (70, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape130"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (75, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape131"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (75, 120, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape132"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (75, 110, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape133"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (65, 110, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape134"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (75, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape135"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (95, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape136"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (95, 110, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape137"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (95, 120, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape138"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (95, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape139"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (105, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape140"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (115, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape141"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (115, 120, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape142"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (115, 110, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape143"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (115, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape144"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (105, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape145"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (105, 115, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape146"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (95, 120, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape147"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (95, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape148"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (105, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape149"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (135, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape150"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (135, 120, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape151"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (135, 110, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape152"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (135, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape153"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (135, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape154"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (145, 115, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape155"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (155, 115, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape156"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (145, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape157"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (155, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape158"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (145, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape159"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (155, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape160"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (175, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape161"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (175, 120, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape162"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (175, 110, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape163"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (175, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape164"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (175, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape165"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (185, 115, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape166"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (195, 115, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape167"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (185, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape168"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (195, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape169"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (185, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape170"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (195, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape171"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (215, 130, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape172"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (215, 120, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape173"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (215, 110, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape174"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (215, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape175"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (225, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+
+    def Xform "shape176"
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (235, 100, 30)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+        def Cube "MeshData"
+        {
+            color3f[] primvars:displayColor = [(1, 0, 0)]
+        }
+    }
+}
+

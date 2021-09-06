@@ -1,0 +1,86 @@
+#usda 1.0
+
+def Xform "MySphere" (
+    variants = {
+        string ColorsRGB = "Yellow"
+    }
+    prepend variantSets = "ColorsRGB"
+)
+{
+    def Sphere "MeshData"
+    {
+    }
+    variantSet "ColorsRGB" = {
+        "Black" {
+            over "MeshData"
+            {
+                color3f[] primvars:displayColor = [(0, 0, 0)]
+            }
+
+        }
+        "Blue" {
+            over "MeshData"
+            {
+                color3f[] primvars:displayColor = [(0, 0, 1)]
+            }
+
+        }
+        "Brown" {
+            over "MeshData"
+            {
+                color3f[] primvars:displayColor = [(0.8, 0.5, 0.25)]
+            }
+
+        }
+        "Cyan" {
+            over "MeshData"
+            {
+                color3f[] primvars:displayColor = [(0, 1, 1)]
+            }
+
+        }
+        "DarkGreen" {
+            over "MeshData"
+            {
+                color3f[] primvars:displayColor = [(0, 0.4, 0)]
+            }
+
+        }
+        "Green" {
+            over "MeshData"
+            {
+                color3f[] primvars:displayColor = [(0, 1, 0)]
+            }
+
+        }
+        "Grey" {
+            over "MeshData"
+            {
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            }
+
+        }
+        "Orange" {
+            over "MeshData"
+            {
+                color3f[] primvars:displayColor = [(1, 0.5, 0)]
+            }
+
+        }
+        "Red" {
+            over "MeshData"
+            {
+                color3f[] primvars:displayColor = [(1, 0, 0)]
+            }
+
+        }
+        "Yellow" {
+            over "MeshData"
+            {
+                color3f[] primvars:displayColor = [(1, 1, 0)]
+            }
+
+        }
+    }
+}
+
